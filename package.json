@@ -2,7 +2,7 @@
   "name": "vs-code-extension-kubernetes-pack",
   "displayName": "Zilev Kubernetes Pack",
   "description": "Conjunto de extensiones para desarrollo en kubernetes en vs code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -21,6 +21,7 @@
   ],
   "extensionPack": [
     "zilev.vs-code-extension-docker-pack",
-    "ms-kubernetes-tools.vscode-kubernetes-tools"
+    "ms-kubernetes-tools.vscode-kubernetes-tools",
+    "ipedrazas.kubernetes-snippets"
   ]
 }
